@@ -1,0 +1,32 @@
+{
+  "endpointAddress" : "http://maps.googleapis.com/maps/api/directions/xml",
+  "method" : "GET",
+  "headers" : { },
+  "redirectEnabled" : true,
+  "requestBody" : "",
+  "queryParams" : {
+    "origin" : "Toronto",
+    "destination" : "Montreal",
+    "sensor" : "false"
+  },
+  "authDetails" : null,
+  "contentType" : "application/json",
+  "multiParamInfoList" : null,
+  "sampleHttpResponseDetails" : {
+    "statusCode" : 500,
+    "headers" : {
+      "Content-Type" : [ "application/xml; charset=UTF-8" ],
+      "Date" : [ "Tue, 28 Nov 2017 18:14:23 GMT" ],
+      "Pragma" : [ "no-cache" ],
+      "Expires" : [ "Fri, 01 Jan 1990 00:00:00 GMT" ],
+      "Cache-Control" : [ "no-cache, must-revalidate" ],
+      "Vary" : [ "Accept-Language" ],
+      "Server" : [ "mafe" ],
+      "X-XSS-Protection" : [ "1; mode=block" ],
+      "X-Frame-Options" : [ "SAMEORIGIN" ]
+    },
+    "responseBody" : "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<DirectionsResponse>\n <status>UNKNOWN_ERROR</status>\n</DirectionsResponse>\n",
+    "convertedResponse" : "{\"status\":\"UNKNOWN_ERROR\"}"
+  },
+  "proxy" : null
+}
